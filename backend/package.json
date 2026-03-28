@@ -1,0 +1,21 @@
+{
+  "name": "twinsight-backend",
+  "version": "0.1.0",
+  "description": "TwinSight Dashboard Backend - Data layer for multi-agent collaboration",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "db:init": "node scripts/init-db.ts"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "sqlite3": "^5.1.7",
+    "yaml": "^2.4.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.2"
+  }
+}
